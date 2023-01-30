@@ -33,58 +33,57 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header class="mb-5">
-      <nav class="navbar fixed-top navbar-light bg-white shadow-lg">
-        <a
-          class="navbar-brand mx-auto text-center d-grid"
-          href="https://www.doutornature.com/"
-          target="_blank"
+    <nav class="navbar fixed-top navbar-light bg-white shadow-lg">
+      <a
+        class="navbar-brand mx-auto text-center d-grid"
+        href="https://www.doutornature.com/"
+        target="_blank"
+      >
+        <img
+          class="img-fluid"
+          src="./public/assets/logo_Doutor-Nature.svg"
+          alt="3 polígonos de cor cinza com images que se referem a saúde. Ao lado, escrito Doctor Nature"
+        />
+      </a>
+    </nav>
+ 
+    <header id="intro" class="container-fluid mt-5 py-4 py-lg-5">
+      <div class="container mx-auto content">
+        <div
+          class="title-box text-center mb-3 mb-md-4 mb-lg-5 mx-auto"
+          style="max-width: 480px"
         >
-          <img
-            class="img-fluid"
-            src="./public/assets/logo_Doutor-Nature.svg"
-            alt="3 polígonos de cor cinza com images que se referem a saúde. Ao lado, escrito Doctor Nature"
-          />
-        </a>
-      </nav>
-    </header>
-    <main>
-      <section id="section-intro" class="container-fluid py-4 py-lg-5">
-        <div class="container mx-auto content">
-          <div
-            style="max-width: 480px"
-            class="title-box text-center mb-3 mb-md-4 mb-lg-5 mx-auto"
-          >
-            <h1 class="mb-2 mb-lg-4 roboto-bd color-primary">
-              O jeito certo de hidratar a pele tipo "crepe"
-            </h1>
-            <p class="robotoS color-white shadow">
-              E porque a indústria de cosméticos nunca falou sobre isso...
-            </p>
-          </div>
-          <div class="container" style="max-width: 700px">
-            <div class="iframe-container">
-              <iframe src="https://www.youtube.com/embed/5lDhkpEGgj8"></iframe>
-            </div>
-          </div>
-          <div class="container">
-            <div class="arrow-icon mx-auto text-center mt-4 mt-lg-5">
-              <i class="bi bi-arrow-down"></i>
-            </div>
+          <h1 class="mb-2 mb-lg-4 roboto-bd color-primary">
+            O jeito certo de hidratar a pele tipo "crepe"
+          </h1>
+          <p class="robotoS color-white shadow">
+            E porque a indústria de cosméticos nunca falou sobre isso...
+          </p>
+        </div>
+        <div class="container" style="max-width: 700px">
+          <div class="iframe-container">
+            <iframe src="https://www.youtube.com/embed/5lDhkpEGgj8"></iframe>
           </div>
         </div>
-      </section>
+        <div class="container">
+          <div class="arrow-icon mx-auto text-center mt-4 mt-lg-5">
+            <i class="bi bi-arrow-down"></i>
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <main>
       <section
         id="section-discovery"
         class="bg-white container-fluid py-4 py-lg-5"
       >
         <div class="container content mx-auto">
           <div
-            style="max-width: 480px"
             class="title-box mx-auto text-center mb-3 mb-md-4 mb-lg-5"
+            style="max-width: 480px"
           >
-            <h1 class="mb-md-2 mb-lg-4 roboto-bd color-primary">
+            <h1 class="mb-md-1 roboto-bd color-primary">
               Porque cremes não hidratam esse tipo de pele "crepe"?
             </h1>
             <p class="robotoS color-tertiary">
@@ -161,13 +160,13 @@
             id="section-header"
             class="text-center mx-auto mb-3 mb-md-4 mb-lg-5"
           >
-            <div class="banner container">
+            <div class="banner" style="max-width: 200px">
               <img
-                style="max-width: 150px; height: 30px"
+                class="img-fluid"
                 src="./public/assets/mark.svg"
                 alt="Paralelogramo verde inscrito Oferta Única"
               />
-              <h8 class="mb-2 mb-lg-3 roboto-bd color-white">OFERTA ÚNICA</h8>
+              <h8 class="roboto-bd color-white">OFERTA ÚNICA</h8>
             </div>
             <h2 class="roboto-bd color-white">
               Você não verá preço menor em outro lugar
@@ -861,6 +860,7 @@
         </div>
       </section>
     </main>
+    
     <footer id="footer" class="container-fluid bkg-white py-4 py-lg-5">
       <div class="content">
         <div class="row justify-content-between align-items-center">
