@@ -1,0 +1,11 @@
+{
+  "name": "doutor-nature-landing-page",
+  "version": "1.0.0",
+  "description": "Projeto utilizando HTML5, CSS3, JavaScript, Bootstrap 5 para Doutor Nature",
+  "main": "index.js",
+  "author": "Paulo Nogueira",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}

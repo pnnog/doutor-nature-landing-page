@@ -1,0 +1,591 @@
+/*ROBOTO FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*ROBOTO SLAB FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+/*EFFRA FONTS*/
+@font-face {
+  font-family: "Effra";
+  src: url("../public/assets/fonts/Effra_Std_Lt.ttf") format("truetype"),
+    url("../public/assets/fonts/effra_std_lt-webfont.woff") format("woff"),
+    url("../public/assets/fonts/effra_std_lt-webfont.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url("../public/assets/fonts/Effra_Std_Rg.ttf") format("truetype"),
+    url("../public/assets/fonts/effra_std_rg-webfont.woff") format("woff"),
+    url("../public/assets/fonts/effra_std_rg-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url("../public/assets/fonts/Effra_Std_Bd.ttf") format("truetype"),
+    url("../public/assets/fonts/effra_std_bd-webfont.woff") format("woff"),
+    url("../public/assets/fonts/effra_std_bd-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  /*Font Colors and Background Colors*/
+  --color-primary: #3b4157;
+  --color-secondary: #606160;
+  --color-tertiary: #ff594e;
+  --bkg-primary: #3b4157;
+  --bkg-secondary: #484b57;
+  --white-color: #f5f5f5;
+  --color-primary-muted: #666666c9;
+}
+
+.effra-bold {
+  font-family: "Effra", sans-serif;
+  font-weight: 700;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-bd {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.robotoS {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+}
+
+.robotoS-bd {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+}
+.color-primary {
+  color: var(--color-primary);
+}
+.color-secondary {
+  color: var(--color-secondary);
+}
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+.color-primary-muted {
+  color: var(--color-primary-muted);
+}
+
+.color-white {
+  color: var(--white-color);
+}
+.bkg-primary {
+  background-color: var(--bkg-primary);
+}
+.bkg-secondary {
+  background-color: var(--bkg-secondary);
+}
+
+.bkg-white {
+  background-color: var(--white-color);
+}
+
+body {
+  font-family: "Roboto Slab", "Effra", "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+p {
+  color: var(--color-secondary);
+  font-family: "roboto";
+}
+
+/*Important Class Start*/
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.title-box h1 {
+  font-size: 1.6rem;
+}
+
+.title-box p {
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+.text-box p {
+  font-size: 0.8rem;
+  color: var(--color-primary-muted);
+  text-align: justify;
+}
+
+.text-box span {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.justify {
+  justify-content: center;
+}
+/*Important Class End*/
+
+/* HEADER START*/
+
+.navbar {
+  height: 4rem;
+}
+
+.navbar a {
+  width: 160px;
+}
+
+/* Header End*/
+
+/* Section Intro Start */
+
+#section-intro {
+  background-image: url("../public/assets/img/background-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#section-intro p {
+  display: inline-block;
+  padding: 1px 5px;
+  background-color: rgb(32, 172, 76);
+  border-radius: 2px;
+}
+
+.iframe-container {
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* Section Intro End */
+
+/* Section Discovery Start */
+#section-discovery #container-index {
+  position: relative;
+  z-index: 1;
+}
+
+#section-discovery #pic-desktop {
+  position: absolute;
+  z-index: 10;
+  top: -165px;
+  right: 35px;
+}
+
+/* Section Discovery End */
+
+/*Section Offer Start */
+
+#section-offer .banner {
+  position: relative;
+}
+#section-offer .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#section-offer .banner h8 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-size: 1rem;
+  z-index: 10;
+  color: white;
+}
+
+/*All Cards Start*/
+
+.card-deck {
+  display: block;
+}
+
+.card {
+  display: block;
+  background-color: var(--white-color);
+  padding: 10px;
+}
+
+.card .card-header {
+  background-color: var(--color-secondary);
+  text-align: center;
+}
+
+.card .card-header h2 {
+  color: var(--white-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card-header:first-child {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
+}
+
+/*All Cards End*/
+
+/*Card 1*/
+#card-1 {
+  width: 295px;
+  height: 310px;
+  margin: auto;
+}
+
+#card-1 .card-body .boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card-1 .card-body .boxes .box-qt {
+  padding: 8px 18px;
+  background-color: #e6e7e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#card-1 .card-body .boxes .box-qt h3 {
+  font-size: 1.6rem;
+  color: var(--color-primary-muted);
+}
+
+#card-1 .card-body .boxes .box-qt p {
+  font-size: 0.8rem;
+  color: var(--color-primary-muted);
+}
+
+#card-1 .card-body .boxes #box-green {
+  background-color: rgb(32, 172, 76);
+}
+
+#card-1 .card-body .boxes #box-green h3 {
+  color: white;
+}
+
+#card-1 .card-body .boxes #box-green p {
+  color: white;
+}
+
+#card-1 .card-body .pricing {
+  text-align: center;
+  margin-top: 12px;
+}
+
+#card-1 .card-body .pricing h6 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--bkg-primary);
+}
+
+#card-1 .card-body .pricing .subtitle {
+  color: rgb(32, 172, 76);
+  font-size: 0.8rem;
+}
+
+#card-1 .card-body .pricing span {
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
+
+#card-1 .card-body .btn-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 30px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: var(--color-tertiary);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
+  text-align: center;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+#card-1 .card-body .buy-btn {
+  text-decoration: none;
+  color: var(--white-color);
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#card-1 .card-body .buy-btn:hover {
+  -webkit-transform: scale(1) 1;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  color: white;
+}
+
+/*CARD 2 START*/
+
+#card-2 {
+  width: 295px;
+  height: 310px;
+  margin: auto;
+}
+
+#card-2 .card-header {
+  position: relative;
+}
+
+#card-2 .card-header p {
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+#card-2 .badge {
+  width: 90px;
+  position: absolute;
+  right: -10px;
+  top: 70px;
+}
+
+.card-body ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+.card-body .list li {
+  margin-left: -25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.card-body .list img {
+  padding: 0;
+  width: 15px;
+}
+
+.card-body .list li p {
+  margin-left: 5px;
+  color: var(--color-primary-muted);
+  opacity: 0.8;
+  font-size: 0.7rem;
+}
+
+.accept-check {
+  background-color: #a7aab54d;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.accept-check p {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--color-primary-muted);
+  opacity: 0.8;
+}
+
+.accept-check span {
+  color: black;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.accept-check img {
+  cursor: pointer;
+  width: 30px;
+}
+/*CARD 2 END*/
+
+/*Section Offer End */
+
+/*Section Certificate Start*/
+.certificate-banner {
+  padding: 30px;
+  border-radius: 40px;
+}
+/*Section Certificate End*/
+
+/*Section Results Start*/
+#section-results .pic-card {
+  max-width: 500px;
+  padding: 0;
+}
+
+/*Section Results End*/
+
+/*Section QA Start*/
+
+#section #accordionFlush {
+  margin-top: 30px;
+}
+
+#section-qa .bi {
+  font-size: 1rem;
+}
+
+#section-qa .accordion-item {
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#section-qa .accordion-body {
+  margin-top: 10px;
+}
+/*Section QA End*/
+
+/*Section Benefits Start*/
+#section-benefits #section-body ul {
+  padding: 0;
+  list-style: none;
+}
+
+#section-benefits #section-body li {
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+}
+
+#section-benefits #section-body li p {
+  color: var(--color-primary-muted);
+}
+#section-benefits #section-body .bi-dot {
+  color: green;
+  font-size: 30px;
+}
+
+#footer p {
+  color: var(--color-primary-muted);
+  font-size: 0.7rem;
+  text-align: justify;
+}
+
+#footer #terms-link {
+  text-align: justify;
+}
+
+#footer a {
+  color: var(--color-primary-muted);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#footer a:hover {
+  color: #ff594e;
+}
+
+/*Section Benefits End*/
+
+@media screen and (min-width: 768px) {
+  .title-box h1 {
+    font-size: 2rem;
+  }
+
+  .title-box p {
+    font-size: 1rem;
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
+
+  #section-intro {
+    background-image: url("../public/assets/img/background-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .arrow-icon {
+    font-size: 1.5rem;
+  }
+
+  .justify {
+    justify-content: space-between;
+  }
+
+  #footer #terms-link {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 20px;
+  }
+
+  .card-deck {
+    position: relative;
+    z-index: 0;
+    margin: 0px 0px 0px 97px;
+    max-width: 625px;
+  }
+
+  #card-1 {
+    z-index: 10;
+    margin: 0px 0px 0px 0px;
+
+    width: 330px;
+    height: 340px;
+  }
+
+  #card-2 .badge {
+    width: 90px;
+    position: absolute;
+    right: -33.7px;
+    top: -70px;
+  }
+
+  #card-2 {
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    right: -30px;
+    padding-left: 30px;
+    width: 340px;
+    height: 300px;
+  }
+
+  #card-2 .card-header {
+    position: relative;
+  }
+
+  .arrow-icon {
+    font-size: 2rem;
+  }
+}
