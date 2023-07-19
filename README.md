@@ -7,6 +7,7 @@ Projeto de desafio técnico desenvolvido para a Doutor Nature.
 - HTML 5
 - CSS 3
 - Bootstrap
+- Javascript
 
 # :open_file_folder: Acesso ao projeto
 
