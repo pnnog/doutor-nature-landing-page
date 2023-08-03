@@ -11,7 +11,7 @@ Projeto de desafio técnico desenvolvido para a Doutor Nature.
 
 # :open_file_folder: Acesso ao projeto
 
-Você pode acessar o código fonte do projeto original ou acessar ou baixá-lo
+Você pode acessar o código fonte do projeto original ou baixá-lo
 
 # :checkered_flag: Abrir e rodar o projeto
 
